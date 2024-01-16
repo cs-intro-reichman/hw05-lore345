@@ -28,7 +28,7 @@ public class TesterGameOfLife {
         }
     }
 
-    private static void testPrint(String fileName) {
+    public static void testPrint(String fileName) {
         int[][] board = GameOfLife.read(fileName);
         GameOfLife.print(board);
     }
