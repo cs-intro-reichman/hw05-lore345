@@ -181,7 +181,6 @@ public class GameOfLife {
             // Add a newline after each row
             System.out.println();
         }
-        System.out.println();
     }
 
 
